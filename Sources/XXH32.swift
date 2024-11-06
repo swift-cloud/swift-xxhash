@@ -1,7 +1,7 @@
 public struct XXH32: Sendable {
     public let seed: UInt32
 
-    public init(seed: UInt32) {
+    public init(seed: UInt32 = 0) {
         self.seed = seed
     }
 }
